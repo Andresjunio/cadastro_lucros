@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    font-size: 62.5%;
+    background: linear-gradient(90deg, rgb(224, 241, 205), rgb(147, 218, 159));
+    color: #1f4368;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h1, h2, h3{
+    text-shadow: 0 5px 10px rgb(0,0,0,0.1);
+    
+}
+
+main .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+main .main-container .content{
+    display: flex;
+    max-width: 980px;
+}
+
+main .input-container{
+    
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8rem;
+    font-size: 2.2rem;
+    
+    
+    
+}
+
+main .input-container .create,
+main .input-container .login{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .input-container input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    background: #15afa6;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+    margin-top: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #f1e6cd;
+}
+
+main .input-container input:hover{
+    height: 3rem;
+    background: #ea4f78;
+}
