@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="cadastro_style.css">
+</head>
+<body>
+    <main>
+        <h1>Preencha suas informações para cadastro</h1>
+        <section>
+            <form action="">
+                <div class="input-one">
+                    <input type="number" name="cadastro" id="matricula" maxlength="5"
+                    placeholder="Matrícula..">
+                    <input type="text" name="cadastro" id="nome" placeholder="Nome..">
+                </div>
+                <div class="input-two">
+                    <input type="radio" name="cadastro" id="diretoria" value="diretoria" checked>
+                    <label for="diretoria">Diretoria</label>
+                    <input type="radio" name="cadastro" id="cft" value="cft">
+                    <label for="cft">Contabilidade, Financeiro ou Tecnologia</label>
+                    <input type="radio" name="cadastro" id="servicos" value="servico">
+                    <label for="servicos">Serviços</label>
+                    <input type="radio" name="cadastro" id="relacionamento" value="relacionamento">
+                    <label for="relacionamento">Relacionamento</label>
+                </div>
+                <div class="input-three">
+                    <select name="cadastro" id="cargo">
+                        <option value="cargo">Selecione seu cargo..</option>
+                        <option value="estagiario">Estagiário</option>
+                        <option value="funcionario">Funcionário</option>
+                    </select>
+                    <input type="number" name="cadastro" id="salario" 
+                    placeholder="Salário bruto.." maxlength="6">
+                    
+                </div>
+                <div class="input-four">
+                    <div class="admission">
+                        <label for="data-admissao">Data de admissão</label>
+                        <input type="date" name="cadastro" id="data-admissao" placeholder="Data de admissão..">
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="back"><a href="../index.html">Voltar</a></div>
+                    <input type="submit" value="Enviar cadastro" class="send">
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>

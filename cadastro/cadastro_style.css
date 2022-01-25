@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgb(224, 241, 205), rgb(147, 218, 159));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #1f4368;
+    text-shadow: 0 5px 10px rgb(0,0,0,0.1);
+}
+
+
+section{
+    background-color: white;
+    height: 400px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+    max-width: 980px;
+    width: 100%;
+}
+
+form{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main section form .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+main section form .buttons .back,
+main section form .send{
+    height: 40px;
+    border: 0;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition-duration: 0.8s;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    color: #f1e6cd;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2); 
+    border-radius: 10px;
+    background: #15afa6;
+    padding: 7px;
+    cursor: pointer;
+}
+
+form .buttons .back a{
+    text-decoration: none;
+    color: #f1e6cd;
+    
+}
+
+main section form .back:hover,
+main section form .send:hover{
+    background: #ea4f78;
+}
+
+#matricula, #nome, #salario, #cargo, #data-admissao{
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px;
+    color: rgb(0, 0, 0, 0.4);
+}
+
+#matricula::placeholder, #nome::placeholder, #salario::placeholder{
+    color: rgb(0, 0, 0, 0.4);
+}
+
+form label{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+/**section form .input-one input,
+section form .input-two label,
+section form .input-three option + input
+    font-size: 1.6rem;
+    font-weight: bold;
+    color:#1f4368;
+**/

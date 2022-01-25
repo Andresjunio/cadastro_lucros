@@ -78,7 +78,8 @@ main .input-container .login{
 
 }
 
-main .input-container input{
+main .input-container a{
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,11 +91,10 @@ main .input-container input{
     font-weight: 400;
     font-size: 2rem;
     color: #f1e6cd;
-    cursor: pointer;
     box-shadow: 0 5px 10px rgb(0,0,0,0.2); 
 }
 
-main .input-container input:hover{
+main .input-container a:hover{
     background: #ea4f78;
 }
 
@@ -145,4 +145,3 @@ main .input-container input:hover{
         height: 208px;
     }
 }
-    
